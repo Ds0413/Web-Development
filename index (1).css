@@ -1,0 +1,87 @@
+
+
+body {
+    position: relative;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FSMyrO7b.jpg&f=1&nofb=1");
+
+    
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 474px;
+    max-height: 266px;
+}
+
+
+p {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color:black;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+
+a {
+    color: black;
+}
+
+.shopee {
+    background-color: #ff4500;
+
+}
+
+.website {
+    background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+
+    .topleft {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topright {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottomleft {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottomright {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightimg {
+        width: 50%;
+    }
+}

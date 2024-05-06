@@ -1,0 +1,113 @@
+body {
+    background-color: cadetblue}
+
+nav {
+    overflow: hidden;
+    background-color: black;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #d0f07a;
+    text-align: center;
+    padding: 12px 20px;
+    font-family: sans-serif
+  }
+
+nav a:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-family: Helvetica;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgrightbias {
+    display: block;
+    float: right;
+    padding-right: 5vw;
+}
+
+.txtleftbias {
+    width: 40vw;
+    float: left;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-size: large;
+}
+
+.imgleftbias {
+    float: left;
+    padding-left: 8vw;
+    padding-right: 10vw;
+}
+
+.txtrightbias {
+    width: 30vw;
+    float: right;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    font-size: large;
+}
+
+.space {
+    padding-bottom: 8vw;
+}
+
+.spacesmall {
+    padding-bottom: 3vw;
+}
+
+.inline {
+    display: inline-block;
+    padding-bottom: 6vw;
+}
+
+.image {
+    max-width: 34vw;
+    height: auto;
+}
+
+.connectivity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 80px;
+}
+
+summary {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+summary:hover {
+    background-color: black;
+    color: white;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
